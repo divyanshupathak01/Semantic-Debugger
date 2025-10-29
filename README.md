@@ -62,14 +62,14 @@ Prerequisites:
 
 Python 3.8 or later
 
-You will need to download the dataset from [Link to your Kaggle dataset] and place it in the [e.g., /data] folder.
+You will need to download the dataset from https://www.kaggle.com/datasets/stackoverflow/pythonquestions and place it in the [e.g., /data] folder.
 
 1. Clone the repository:
 
 Bash
 
-git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME].git
-cd [YOUR_REPO_NAME]
+git clone (https://github.com/divyanshupathak01/Semantic-Debugger.git)
+cd Semantic-Debugger
 2. Create and activate a virtual environment:
 
 Bash
