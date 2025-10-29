@@ -135,7 +135,7 @@ JSON
 👤 Contact
 Find me on:
 
-LinkedIn: [Your LinkedIn URL]
+LinkedIn: https://www.linkedin.com/in/divyanshu-pathak-a05308338?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGSPLDXehQgetofIQFKi9GA%3D%3D
 
 GitHub: [Your GitHub Profile URL]
 
