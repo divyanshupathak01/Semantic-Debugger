@@ -24,7 +24,7 @@ Here is a look at the simple web app (built with Streamlit). You just paste your
 
 The project also runs as a separate REST API, so other applications or even an IDE plugin could use it.
 
-[Optional: Add a GIF or screenshot of you using the API with Postman or curl]![WhatsApp Image 2025-10-29 at 23 50 32_d303017f](https://github.com/user-attachments/assets/e6ddac3a-5d0a-4b4c-aaf5-4d2802564b0f)
+![WhatsApp Image 2025-10-29 at 23 50 32_d303017f](https://github.com/user-attachments/assets/e6ddac3a-5d0a-4b4c-aaf5-4d2802564b0f)![WhatsApp Image 2025-10-29 at 23 51 18_b9cda824](https://github.com/user-attachments/assets/86c0b8ec-42a3-49f2-b8de-1e594b663af0)
 
 
 💻 How It Works: The Recipe
