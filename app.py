@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 
 st.set_page_config(
     page_title="AI Semantic Debugger",
-    page_icon="🤖",
+    page_icon="",
     layout="wide"
 )
 
@@ -83,17 +83,17 @@ with col2:
 
 if st.button("Find Solution", type="primary", use_container_width=True):
     if user_code and user_error:
-        with st.spinner("🧠 Analyzing your query semantically..."):
+        with st.spinner(" Analyzing your query semantically..."):
             user_query = user_code + "\n" + user_error
             top_matches = find_similar_questions(user_query)
             
             st.markdown("---")
-            st.subheader("🏆 Top Results")
+            st.subheader(" Top Results")
             
             top_question = top_matches.iloc[0]
             st.success(f"**Best Match:** [{top_question['Title']}](https://stackoverflow.com/q/{top_question['QuestionId']}) (Similarity: {top_question['SimilarityScore']:.2f})")
             
-            with st.expander("💡 **View Suggested Solution Code**", expanded=True):
+            with st.expander("**View Suggested Solution Code**", expanded=True):
                 
                 solution_code = get_suggested_solution(top_question['QuestionId'])
                 if solution_code and "No code blocks found" not in solution_code[0]:
@@ -108,3 +108,4 @@ if st.button("Find Solution", type="primary", use_container_width=True):
     else:
 
         st.error("Please enter both your code and the error message to get a solution.")
+
